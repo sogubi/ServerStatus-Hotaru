@@ -1,3 +1,22 @@
+安装
+
+服务端
+wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+bash status.sh s
+脚本中有可选项，选择是安装新的 Nginx 程序或不安装而使用自己已经安装的 Nginx
+如果使用自己的 Nginx 程序则需要将 /usr/local/ServerStatus/web 目录设置为网站目录即可
+可以选择在使用脚本时就直接做好配置或者在 /usr/local/ServerStatus/server 中直接编辑 config.json 文件
+客户端
+wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+bash status.sh c
+可以选择在使用脚本时就直接做好配置或者在 /usr/local/ServerStatus/client 中直接编辑 status-client.py 文件
+个人建议
+
+ServerStatus-Hotaru 的图片使用有点花里胡哨，建议直接编辑 /usr/local/ServerStatus/web/css/hotaru_fix.css 这个文件，将头部背景图去掉，或者直接把 img 文件夹中的图片删除
+
+
+
+
 # ServerStatus-Hotaru0
 云探针、多服务器探针、云监控、多服务器云监控
 
